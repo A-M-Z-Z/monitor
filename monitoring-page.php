@@ -191,15 +191,15 @@ $username = $_SESSION['username'];
     </div>
     
     <nav class="dashboard-nav">
-        <a href="home">📊 Dashboard</a>
-        <a href="drive">📁 My Drive</a>
+        <a href="home.php">📊 Dashboard</a>
+        <a href="drive.php">📁 My Drive</a>
         <?php if($isAdmin): ?>
-        <a href="admin">👑 Admin Panel</a>
+        <a href="admin.php">👑 Admin Panel</a>
         <?php endif; ?>
         <a href="shared">🔄 Shared Files</a>
-        <a href="monitoring">📈 Monitoring</a>
+        <a href="monitoring_page.php">📈 Monitoring</a>
         <a href="#">🗑️ Trash</a>
-        <a href="logout">🚪 Logout</a>
+        <a href="logout.php">🚪 Logout</a>
     </nav>
 
     <main>
